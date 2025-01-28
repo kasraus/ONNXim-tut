@@ -121,7 +121,7 @@ $ git submodule update --recursive --init
 ### Build
 ```
 $ mkdir build && cd build
-$ conan install ..
+$ conan install .. --build=missing
 $ cmake ..
 $ make -j
 ```
